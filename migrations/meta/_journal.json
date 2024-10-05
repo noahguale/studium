@@ -15,6 +15,13 @@
       "when": 1728078519058,
       "tag": "0001_lonely_magus",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1728106789264,
+      "tag": "0002_gorgeous_vargas",
+      "breakpoints": true
     }
   ]
 }
