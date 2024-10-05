@@ -1,4 +1,7 @@
+// import { database as db, pg } from '.'
+
 import { db } from './index.js'
+
 import {
 	users,
 	decks,
