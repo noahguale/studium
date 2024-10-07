@@ -23,6 +23,7 @@
     "@t3-oss/env-nextjs": "^0.11.1",
     "@vercel/postgres": "^0.10.0",
     "arctic": "^1.9.2",
+    "bcrypt": "^5.1.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
@@ -45,6 +46,7 @@
     "zustand": "^4.5.5"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

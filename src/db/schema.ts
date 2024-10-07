@@ -13,8 +13,8 @@ export const accountTypeEnum = pgEnum('type', ['email', 'google', 'github'])
 
 export const users = pgTable('users', {
 	id: serial('id').primaryKey(),
-	name: text('name').notNull(),
-	age: integer('age').notNull(),
+	name: text('name'),
+	age: integer('age'),
 	email: text('email').notNull().unique(),
 	emailVerified: timestamp('email_verified', { mode: 'date' }),
 })
